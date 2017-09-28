@@ -1,5 +1,9 @@
+
 # hello-world
-Hello World in any programing language
+
+![Travis Status](https://www.travis-ci.org/berviantoleo/hello-world.svg?branch=master)
+
+Hello World in any programing language. Read [contribution guide](CONTRIBUTION.md) for pull request.
 
 # Table of Content
 * [C](#C)
@@ -7,9 +11,15 @@ Hello World in any programing language
 
 # C
 
-Compile: `gcc -o hello_world.c hello_world`
+Compile: `gcc hello_world.c -o hello_world`
 
-Run: `hello_world`
+Run (Linux): `./hello_world`
+
+# CPP
+
+Compile: `g++ hello_world.cpp -o hello_world`
+
+Run (Linux): `./hello_world`
 
 # Java
 
