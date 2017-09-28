@@ -1,0 +1,6 @@
+language: general
+
+script:
+  - make c
+  - make cpp
+  - make java
