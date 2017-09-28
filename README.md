@@ -27,3 +27,10 @@ Compile: `javac HelloWorld.java`
 
 Run: `java HelloWorld`
 
+# Python 2
+
+Run: `python hello_world.py
+
+# Python 3
+
+Run: `python3 hello_world_2.py
