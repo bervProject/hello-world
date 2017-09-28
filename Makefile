@@ -9,3 +9,6 @@ cpp:
 java:
 	javac HelloWorld.java
 	java HelloWorld
+
+julia:
+	julia HelloWorld.jl
