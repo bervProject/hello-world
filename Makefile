@@ -14,7 +14,7 @@ elixir:
 	
 fortran:
 	gfortran hello_world.f -o hello_world_fortran
-	./hello_word_fortran
+	./hello_world_fortran
 	
 go:
 	go run hello_world.go
@@ -49,7 +49,7 @@ python:
 	python hello_world_2.py
 	
 python3:
-	python3 hello_world.py
+	python hello_world.py
 	
 rust:
 	 rustc hello_world.rs
@@ -60,7 +60,13 @@ scala:
 	scala HelloWorld
 
 install-coffee:
-	npm install --save-dev coffeescript
+	npm install -g coffeescript
+	
+install-julia:
+	sudo add-apt-repository ppa:staticfloat/juliareleases
+	sudo apt-get update
+	sudo apt-get install julia -y
+	julia -E 'Pkg.update()'
 	
 install-lisp:
 	sudo apt-get install clisp
@@ -75,3 +81,10 @@ install-nim:
 	
 install-pascal:
 	sudo apt-get install fp-compiler
+	
+install-rust:
+	sudo apt-get install curl
+	curl -sSf https://static.rust-lang.org/rustup.sh | sh
+	
+install-scala:
+	sudo apt-get install scala
