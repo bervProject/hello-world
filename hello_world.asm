@@ -1,14 +1,13 @@
 org 100h
 
-; add your code here
 
-hello_string dw "Hello World!$" ; Define the string
+lea dx, hello_string ; Put address of string in dx
+mov ah, 9 ; Move 9h to ah register
+int 21h ; Call the 21h interupt to print to the screen  
 
-lea dx, hello_string
-mov ah, 9
-int 21h  
+mov ax, 4C00H ; See above
+int 21h ; Call interupt
 
-mov ax, 4C00H
-int 21h
+ret  
 
-ret
+hello_string dw "Hello World!$" ; Define the string to print
