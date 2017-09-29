@@ -1,6 +1,27 @@
 language: general
 
+before_install:
+  - make install-coffee
+  - make install-lisp
+  - make install-fortran
+  - make install-nim
+  - make install-pascal
+
 script:
   - make c
+  - make coffee
   - make cpp
+  - make elixir
+  - make fortran
+  - make go
   - make java
+  - make julia
+  - make lisp
+  - make nim
+  - make node
+  - make pascal
+  - make php
+  - make python
+  - make python3
+  - make rust
+  - make scala
