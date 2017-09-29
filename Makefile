@@ -72,9 +72,7 @@ install-julia:
 	julia -E 'Pkg.update()'
 	
 install-kotlin:
-	wget -O sdk.install.sh "https://get.sdkman.io"
-	bash sdk.install.sh
-	source ~/.sdkman/bin/sdkman-init.sh
+	curl -s https://get.sdkman.io | bash
 	sdk install kotlin
 	
 install-lisp:
