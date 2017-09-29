@@ -12,7 +12,3 @@ mov ax, 4C00H
 int 21h
 
 ret
-
-
-
-
