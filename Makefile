@@ -1,5 +1,3 @@
-TRAVIS_HOME=$HOME
-
 c:
 	gcc hello_world.c -o hello_world_c
 	./hello_world_c
@@ -64,6 +62,12 @@ scala:
 install-coffee:
 	npm install -g coffeescript
 	
+install-elixir:
+	wget https://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb && sudo dpkg -i erlang-solutions_1.0_all.deb
+	sudo apt-get update
+	sudo apt-get install esl-erlang -y
+	sudo apt-get install elixir -y
+	
 install-fortran:
 	sudo apt-get install gfortran
 	
@@ -77,7 +81,7 @@ install-kotlin:
 	sdk install kotlin
 	
 install-lisp:
-	sudo apt-get install clisp
+	sudo apt-get install clisp -y
 	
 install-nim:
 	wget http://http.us.debian.org/debian/pool/main/n/nim/nim_0.16.0-1_amd64.deb
@@ -85,11 +89,11 @@ install-nim:
 	sudo dpkg -i *_amd64.deb
 	
 install-pascal:
-	sudo apt-get install fp-compiler
+	sudo apt-get install fp-compiler -y
 	
 install-rust:
 	sudo apt-get install curl
 	curl -sSf https://static.rust-lang.org/rustup.sh | sh
 	
 install-scala:
-	sudo apt-get install scala
+	sudo apt-get install scala -y
