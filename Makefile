@@ -62,17 +62,23 @@ scala:
 install-coffee:
 	npm install -g coffeescript
 	
+install-fortran:
+	sudo apt-get install gfortran
+	
 install-julia:
-	sudo add-apt-repository ppa:staticfloat/juliareleases
+	sudo add-apt-repository ppa:staticfloat/juliareleases -y
 	sudo apt-get update
 	sudo apt-get install julia -y
 	julia -E 'Pkg.update()'
 	
+install-kotlin:
+	wget -O sdk.install.sh "https://get.sdkman.io"
+	bash sdk.install.sh
+	source ~/.sdkman/bin/sdkman-init.sh
+	sdk install kotlin
+	
 install-lisp:
 	sudo apt-get install clisp
-
-install-fortran:
-	sudo apt-get install gfortran
 	
 install-nim:
 	wget http://http.us.debian.org/debian/pool/main/n/nim/nim_0.16.0-1_amd64.deb
