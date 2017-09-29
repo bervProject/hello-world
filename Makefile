@@ -1,3 +1,5 @@
+TRAVIS_HOME=$HOME
+
 c:
 	gcc hello_world.c -o hello_world_c
 	./hello_world_c
@@ -72,7 +74,6 @@ install-julia:
 	julia -E 'Pkg.update()'
 	
 install-kotlin:
-	curl -s https://get.sdkman.io | bash
 	sdk install kotlin
 	
 install-lisp:
