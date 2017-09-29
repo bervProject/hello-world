@@ -1,5 +1,7 @@
 language: general
 
+sudo: required
+
 before_install:
   - make install-coffee
   - make install-lisp
