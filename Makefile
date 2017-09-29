@@ -1,10 +1,23 @@
 c:
-	gcc hello_world.c -o hello_world
-	./hello_world
+	gcc hello_world.c -o hello_world_c
+	./hello_world_c
+	
+coffee:
+	coffee hello_world.coffee
   
 cpp:
-	g++ hello_world.cpp -o hello_world
-	./hello_world
+	g++ hello_world.cpp -o hello_world_cpp
+	./hello_world_cpp
+	
+elixir:
+	elixir hello_world.ex
+	
+fortran:
+	gfortran hello_world.f -o hello_world_fortran
+	./hello_word_fortran
+	
+go:
+	go run hello_world.go
 
 java:
 	javac HelloWorld.java
@@ -12,3 +25,53 @@ java:
 
 julia:
 	julia HelloWorld.jl
+	
+kotlin:
+	kotlinc HelloWorld.kt -include-runtime -d HelloWorld.jar && java -jar HelloWorld.jar
+	
+lisp:
+	clisp hello_world.lisp
+
+nim:
+	nim compile --run hello_world.nim
+	
+node:
+	node hello_world.js
+	
+pascal:
+	 fpc hello_world.pas
+	 ./hello_world
+
+php:
+	php hello_world.php
+	
+python:
+	python hello_world_2.py
+	
+python3:
+	python3 hello_world.py
+	
+rust:
+	 rustc hello_world.rs
+	  ./hello_world
+	  
+scala:
+	scalac HelloWorld.scala
+	scala HelloWorld
+
+install-coffee:
+	npm install --save-dev coffeescript
+	
+install-lisp:
+	sudo apt-get install clisp
+
+install-fortran:
+	sudo apt-get install gfortran
+	
+install-nim:
+	wget http://http.us.debian.org/debian/pool/main/n/nim/nim_0.16.0-1_amd64.deb
+	wget http://http.us.debian.org/debian/pool/main/o/openssl1.0/libssl1.0.2_1.0.2l-2_amd64.deb
+	sudo dpkg -i *_amd64.deb
+	
+install-pascal:
+	sudo apt-get install fp-compiler
