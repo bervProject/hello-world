@@ -9,6 +9,9 @@ Hello World in any programing language. Read [contribution guide](CONTRIBUTION.m
 * [C](#C)
 * [Java](#Java)
 * [Julia](#Julia)
+* [Python2](#Python2)
+* [Python3](#Python)
+* [Rust](#Rust)
 
 # C
 
@@ -31,3 +34,17 @@ Run: `java HelloWorld`
 # Julia
 
 Compile and Run: `julia HelloWorld.jl`
+
+# Python2
+
+Run: `python2 hello_world.py`
+
+# Python3
+
+Run: `python3 hello_world_2.py`
+
+# Rust
+
+Compile: `rustc hello_world.rs`
+
+Run: `./hello_world.rs`
