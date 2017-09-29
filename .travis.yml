@@ -4,10 +4,13 @@ sudo: required
 
 before_install:
   - make install-coffee
+  - make install-julia
   - make install-lisp
   - make install-fortran
   - make install-nim
   - make install-pascal
+  - make install-rust
+  - make install-scala
 
 script:
   - make c
