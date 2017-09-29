@@ -30,6 +30,7 @@ script:
   - make nim
   - make node
   - make pascal
+  - make perl
   - make php
   - make python
   - make python3
