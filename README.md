@@ -8,6 +8,7 @@ Hello World in any programing language. Read [contribution guide](CONTRIBUTION.m
 # Table of Content
 * [C](#C)
 * [Java](#Java)
+* [Julia](#Julia)
 
 # C
 
@@ -27,3 +28,6 @@ Compile: `javac HelloWorld.java`
 
 Run: `java HelloWorld`
 
+# Julia
+
+Compile and Run: `julia HelloWorld.jl`
