@@ -4,9 +4,10 @@ sudo: required
 
 before_install:
   - make install-coffee
-  - make install-julia
-  - make install-lisp
   - make install-fortran
+  - make install-julia
+  - make install-kotlin
+  - make install-lisp
   - make install-nim
   - make install-pascal
   - make install-rust
@@ -21,6 +22,7 @@ script:
   - make go
   - make java
   - make julia
+  - make kotlin
   - make lisp
   - make nim
   - make node
