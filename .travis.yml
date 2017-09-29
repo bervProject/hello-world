@@ -15,6 +15,7 @@ before_install:
   - make install-pascal
   - make install-rust
   - make install-scala
+  - make install-bf
 
 script:
   - make c
