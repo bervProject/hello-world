@@ -6,9 +6,14 @@
 Hello World in any programing language. Read [contribution guide](CONTRIBUTION.md) for pull request.
 
 # Table of Content
+* [Bash](#Bash)
 * [C](#C)
 * [Java](#Java)
 * [Julia](#Julia)
+
+# Bash
+
+Run (Linux): `./hello_world.sh`
 
 # C
 
