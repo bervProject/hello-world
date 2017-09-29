@@ -9,6 +9,7 @@ Hello World in any programing language. Read [contribution guide](CONTRIBUTION.m
 * [C](#C)
 * [Java](#Java)
 * [Julia](#Julia)
+* [Perl](#Perl)
 
 # C
 
@@ -31,3 +32,7 @@ Run: `java HelloWorld`
 # Julia
 
 Compile and Run: `julia HelloWorld.jl`
+
+# Perl
+
+Run: `perl hello_world.pl`
