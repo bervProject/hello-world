@@ -25,6 +25,12 @@ Compile: `g++ hello_world.cpp -o hello_world`
 
 Run (Linux): `./hello_world`
 
+# Haskell
+
+Compile: `ghc -dynamic helloworld.hs`
+
+Run (Linux): `./helloworld`
+
 # Java
 
 Compile: `javac HelloWorld.java`
