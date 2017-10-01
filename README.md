@@ -12,6 +12,7 @@ Hello World in any programing language. Read [contribution guide](CONTRIBUTION.m
 * [Julia](#Julia)
 * [Lolcode](#Lolcode)
 * [Ook](#Ook)
+* [Perl](#Perl)
 * [Processing](#Processing)
 * [Python2](#Python2)
 * [Python3](#Python)
@@ -54,6 +55,9 @@ http://lolcode.org/
 
 https://www.splitbrain.org/services/ook
 =======
+
+# Perl
+Run: perl hello_world.pl
 
 # Processing
 Compile and Run : processing-java --run --sketch=`pwd`/HelloWorld --output=`pwd`/HelloWorld/output
