@@ -19,6 +19,10 @@ fortran:
 go:
 	go run hello_world.go
 
+haskell:
+	ghc -dynamic helloworld.hs
+	./helloworld
+
 java:
 	javac HelloWorld.java
 	java HelloWorld
