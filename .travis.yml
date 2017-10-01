@@ -14,7 +14,7 @@ before_install:
   - make install-nim
   - make install-pascal
   - make install-rust
-  - make install-scala 
+  - make install-scala
 
 script:
   - make c

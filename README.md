@@ -16,7 +16,7 @@ Hello World in any programing language. Read [contribution guide](CONTRIBUTION.m
 * [Processing](#Processing)
 * [Python2](#Python2)
 * [Python3](#Python)
-* [Rust](#Rust)`
+* [Rust](#Rust)
 * [R](#R)
 
 
