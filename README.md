@@ -6,6 +6,7 @@
 Hello World in any programing language. Read [contribution guide](CONTRIBUTION.md) for pull request.
 
 # Table of Content
+* [ArnoldC](#ArnoldC)
 * [Befunge](#Befunge)
 * [C](#C)
 * [Java](#Java)
@@ -18,6 +19,14 @@ Hello World in any programing language. Read [contribution guide](CONTRIBUTION.m
 * [Python3](#Python)
 * [Rust](#Rust)
 
+
+# ArnoldC
+
+Download: [http://lhartikk.github.io/ArnoldC](http://lhartikk.github.io/ArnoldC)
+
+Compile: `java -jar ArnoldC.jar hello.arnoldc`
+
+Run: `java hello`
 
 # Befunge
 
