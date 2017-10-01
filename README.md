@@ -15,6 +15,7 @@ Hello World in any programing language. Read [contribution guide](CONTRIBUTION.m
 * [Python2](#Python2)
 * [Python3](#Python)
 * [Rust](#Rust)
+* [Processing](#Processing)
 
 # Befunge
 
@@ -66,3 +67,8 @@ Run: `python3 hello_world_2.py`
 Compile: `rustc hello_world.rs`
 
 Run: `./hello_world.rs`
+
+# Processing
+Compile and Run : processing-java --run --sketch=`pwd`/HelloWorld --output=`pwd`/HelloWorld/output
+
+
