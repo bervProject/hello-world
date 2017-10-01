@@ -19,7 +19,6 @@ Hello World in any programing language. Read [contribution guide](CONTRIBUTION.m
 * [Rust](#Rust)
 
 
-
 # Befunge
 
 http://www.quirkster.com/iano/js/befunge.html
@@ -76,8 +75,6 @@ Run: `python3 hello_world_2.py`
 Compile: `rustc hello_world.rs`
 
 Run: `./hello_world.rs`
-
-
 
 
 
