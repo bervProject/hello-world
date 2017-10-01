@@ -58,6 +58,8 @@ rust:
 scala:
 	scalac HelloWorld.scala
 	scala HelloWorld
+R:
+        R Hello-World.r
 
 install-coffee:
 	npm install -g coffeescript
