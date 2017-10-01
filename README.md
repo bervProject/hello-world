@@ -10,6 +10,7 @@ Hello World in any programing language. Read [contribution guide](CONTRIBUTION.m
 * [C](#C)
 * [Java](#Java)
 * [Julia](#Julia)
+* [Lolcode](#Lolcode)
 * [Python2](#Python2)
 * [Python3](#Python)
 * [Rust](#Rust)
@@ -39,6 +40,12 @@ Run: `java HelloWorld`
 # Julia
 
 Compile and Run: `julia HelloWorld.jl`
+
+# Lolcode
+
+Run: lci hello_world.lolcode
+
+http://lolcode.org/
 
 # Python2
 
