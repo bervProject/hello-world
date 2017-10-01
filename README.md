@@ -72,6 +72,8 @@ Compile: `rustc hello_world.rs`
 
 Run: `./hello_world.rs`
 
+# Php
 
+Run `php hello_world.php`
 
 
