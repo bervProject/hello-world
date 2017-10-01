@@ -12,10 +12,11 @@ Hello World in any programing language. Read [contribution guide](CONTRIBUTION.m
 * [Julia](#Julia)
 * [Lolcode](#Lolcode)
 * [Ook](#Ook)
+* [Processing](#Processing)
 * [Python2](#Python2)
 * [Python3](#Python)
 * [Rust](#Rust)
-* [Processing](#Processing)
+
 
 # Befunge
 
@@ -54,6 +55,9 @@ http://lolcode.org/
 https://www.splitbrain.org/services/ook
 =======
 
+# Processing
+Compile and Run : processing-java --run --sketch=`pwd`/HelloWorld --output=`pwd`/HelloWorld/output
+
 # Python2
 
 Run: `python2 hello_world.py`
@@ -68,7 +72,6 @@ Compile: `rustc hello_world.rs`
 
 Run: `./hello_world.rs`
 
-# Processing
-Compile and Run : processing-java --run --sketch=`pwd`/HelloWorld --output=`pwd`/HelloWorld/output
+
 
 
