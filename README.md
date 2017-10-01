@@ -17,6 +17,7 @@ Hello World in any programing language. Read [contribution guide](CONTRIBUTION.m
 * [Python2](#Python2)
 * [Python3](#Python)
 * [Rust](#Rust)
+* [R](#R)
 
 
 # Befunge
@@ -75,6 +76,9 @@ Run: `python3 hello_world_2.py`
 Compile: `rustc hello_world.rs`
 
 Run: `./hello_world.rs`
+
+#R
+Compile:`Hello-World.r`
 
 
 
