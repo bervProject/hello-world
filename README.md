@@ -79,7 +79,7 @@ Run: `./hello_world.rs`
 
 #R
 
-Run: `R Hello-World.r
+Run: `R Hello-World.r`
 
 
 
