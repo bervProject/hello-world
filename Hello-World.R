@@ -1,3 +1,1 @@
-HW_print<-function(){
-  print("hello world")
-}
+print("Hello World")
