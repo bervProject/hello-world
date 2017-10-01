@@ -8,7 +8,7 @@ Hello World in any programing language. Read [contribution guide](CONTRIBUTION.m
 # Table of Content
 * [Befunge](#Befunge)
 * [C](#C)
-* [Dart](#Dart)
+* [Dart](#dart)
 * [Java](#Java)
 * [Julia](#Julia)
 * [Lolcode](#Lolcode)
@@ -35,6 +35,7 @@ Run (Linux): `./hello_world`
 Compile: `g++ hello_world.cpp -o hello_world`
 
 Run (Linux): `./hello_world`
+
 
 # Dart
 
