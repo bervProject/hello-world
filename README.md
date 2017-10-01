@@ -6,12 +6,17 @@
 Hello World in any programing language. Read [contribution guide](CONTRIBUTION.md) for pull request.
 
 # Table of Content
+* [Befunge](#Befunge)
 * [C](#C)
 * [Java](#Java)
 * [Julia](#Julia)
 * [Python2](#Python2)
 * [Python3](#Python)
 * [Rust](#Rust)
+
+# Befunge
+
+http://www.quirkster.com/iano/js/befunge.html
 
 # C
 
