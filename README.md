@@ -15,6 +15,7 @@ Hello World in any programing language. Read [contribution guide](CONTRIBUTION.m
 * [Lolcode](#Lolcode)
 * [Ook](#Ook)
 * [Perl](#Perl)
+* [Php](#Php)
 * [Processing](#Processing)
 * [Python2](#Python2)
 * [Python3](#Python)
@@ -77,7 +78,12 @@ http://lolcode.org/
 https://www.splitbrain.org/services/ook
 
 # Perl
-Run: perl hello_world.pl
+
+Run: `perl hello_world.pl`
+
+# Php
+
+Run `php hello_world.php`
 
 # Processing
 
@@ -100,4 +106,3 @@ Run: `R Hello-World.r`
 Compile: `rustc hello_world.rs`
 
 Run: `./hello_world.rs`
-
