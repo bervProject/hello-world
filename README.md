@@ -6,8 +6,10 @@
 Hello World in any programing language. Read [contribution guide](CONTRIBUTION.md) for pull request.
 
 # Table of Content
+* [ArnoldC](#ArnoldC)
 * [Befunge](#Befunge)
 * [C](#C)
+* [Dart](#dart)
 * [Java](#Java)
 * [Julia](#Julia)
 * [Lolcode](#Lolcode)
@@ -19,6 +21,14 @@ Hello World in any programing language. Read [contribution guide](CONTRIBUTION.m
 * [Rust](#Rust)
 * [R](#R)
 
+
+# ArnoldC
+
+Download: [http://lhartikk.github.io/ArnoldC](http://lhartikk.github.io/ArnoldC)
+
+Compile: `java -jar ArnoldC.jar hello.arnoldc`
+
+Run: `java hello`
 
 # Befunge
 
@@ -35,6 +45,16 @@ Run (Linux): `./hello_world`
 Compile: `g++ hello_world.cpp -o hello_world`
 
 Run (Linux): `./hello_world`
+
+# Dart
+
+Run: `dart hello_word.dart`
+
+# Haskell
+
+Compile: `ghc -dynamic helloworld.hs`
+
+Run (Linux): `./helloworld`
 
 # Java
 
@@ -55,12 +75,12 @@ http://lolcode.org/
 # Ook
 
 https://www.splitbrain.org/services/ook
-=======
 
 # Perl
 Run: perl hello_world.pl
 
 # Processing
+
 Compile and Run : processing-java --run --sketch=`pwd`/HelloWorld --output=`pwd`/HelloWorld/output
 
 # Python2
@@ -71,16 +91,13 @@ Run: `python2 hello_world.py`
 
 Run: `python3 hello_world_2.py`
 
+# R
+
+Run: `R Hello-World.r`
+
 # Rust
 
 Compile: `rustc hello_world.rs`
 
 Run: `./hello_world.rs`
-
-# R
-
-Run: `R Hello-World.r`
-
-
-
 
