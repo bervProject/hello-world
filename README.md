@@ -36,10 +36,15 @@ Compile: `g++ hello_world.cpp -o hello_world`
 
 Run (Linux): `./hello_world`
 
-
 # Dart
 
 Run: `dart hello_word.dart`
+
+# Haskell
+
+Compile: `ghc -dynamic helloworld.hs`
+
+Run (Linux): `./helloworld`
 
 # Java
 
@@ -60,12 +65,12 @@ http://lolcode.org/
 # Ook
 
 https://www.splitbrain.org/services/ook
-=======
 
 # Perl
 Run: perl hello_world.pl
 
 # Processing
+
 Compile and Run : processing-java --run --sketch=`pwd`/HelloWorld --output=`pwd`/HelloWorld/output
 
 # Python2

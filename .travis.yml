@@ -7,6 +7,7 @@ before_install:
   - make install-elixir
   - make install-fortran
   - make install-julia
+  - make install-haskell
   - bash -c "curl -s "https://get.sdkman.io" | bash"
   - source "/home/travis/.sdkman/bin/sdkman-init.sh"
   - sdk install kotlin
@@ -23,6 +24,7 @@ script:
   - make elixir
   - make fortran
   - make go
+  - make haskell
   - make java
   - make julia
   - make kotlin
