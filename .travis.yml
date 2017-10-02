@@ -37,3 +37,4 @@ script:
   - make python3
   - make rust
   - make scala
+  - make R

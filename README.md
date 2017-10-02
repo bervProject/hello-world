@@ -19,6 +19,7 @@ Hello World in any programing language. Read [contribution guide](CONTRIBUTION.m
 * [Python2](#Python2)
 * [Python3](#Python)
 * [Rust](#Rust)
+* [R](#R)
 
 
 # ArnoldC
@@ -90,8 +91,13 @@ Run: `python2 hello_world.py`
 
 Run: `python3 hello_world_2.py`
 
+# R
+
+Run: `R Hello-World.r`
+
 # Rust
 
 Compile: `rustc hello_world.rs`
 
 Run: `./hello_world.rs`
+
