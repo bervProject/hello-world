@@ -21,6 +21,7 @@ Hello World in any programing language. Read [contribution guide](CONTRIBUTION.m
 * [Python3](#Python)
 * [Rust](#Rust)
 * [R](#R)
+* [Batch](#batch)
 
 
 # ArnoldC
@@ -112,3 +113,7 @@ Run: `R Hello-World.r`
 Compile: `rustc hello_world.rs`
 
 Run: `./hello_world.rs`
+
+# Batch
+
+Run: `hello_world.bat`
