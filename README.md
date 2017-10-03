@@ -12,6 +12,7 @@ Hello World in any programing language. Read [contribution guide](CONTRIBUTION.m
 * [Dart](#dart)
 * [Java](#Java)
 * [Julia](#Julia)
+* [Kotlin](#Kotlin)
 * [Lolcode](#Lolcode)
 * [Ook](#Ook)
 * [Perl](#Perl)
@@ -67,6 +68,13 @@ Run: `java HelloWorld`
 # Julia
 
 Compile and Run: `julia HelloWorld.jl`
+
+# Kotlin
+
+Compile: `kotlinc HelloWorld.kt -include-runtime -d HelloWorld.jar`
+
+Run: `java -jar HelloWorld.jar` 
+
 
 # Lolcode
 
