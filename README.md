@@ -21,6 +21,7 @@ Hello World in any programing language. Read [contribution guide](CONTRIBUTION.m
 * [Python3](#Python)
 * [Rust](#Rust)
 * [R](#R)
+* [Batch](#Batch)
 
 
 # ArnoldC
