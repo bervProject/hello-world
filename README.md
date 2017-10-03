@@ -73,6 +73,12 @@ Run: lci hello_world.lolcode
 
 http://lolcode.org/
 
+# Lisp
+
+Install clisp | `sudo apt-get install clisp`
+
+Run: `clisp hello_world.lisp`
+
 # Ook
 
 https://www.splitbrain.org/services/ook
