@@ -38,3 +38,4 @@ script:
   - make rust
   - make scala
   - make R
+  - make batch
