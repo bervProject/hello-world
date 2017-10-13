@@ -10,6 +10,7 @@ Hello World in any programing language. Read [contribution guide](CONTRIBUTION.m
 * [Befunge](#Befunge)
 * [C](#C)
 * [Dart](#dart)
+* [Fish](#fish)
 * [Java](#Java)
 * [Julia](#Julia)
 * [Kotlin](#Kotlin)
@@ -52,6 +53,10 @@ Run (Linux): `./hello_world`
 # Dart
 
 Run: `dart hello_word.dart`
+
+# Fish
+
+Run: `fish hello_word.fish`
 
 # Haskell
 
