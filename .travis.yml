@@ -8,7 +8,7 @@ before_install:
   - virtualenv venv
   - pip install coala-bears
   - pip install coala-quickstart
-  - yes | coala-quickstart
+  - echo | coala-quickstart
 
 script:
   - coala  --non-interactive
