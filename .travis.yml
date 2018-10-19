@@ -1,41 +1,14 @@
-language: general
+language: python
 
-sudo: required
+python:
+  - "3.6"
 
 before_install:
-  - make install-coffee
-  - make install-elixir
-  - make install-fortran
-  - make install-julia
-  - make install-haskell
-  - bash -c "curl -s "https://get.sdkman.io" | bash"
-  - source "/home/travis/.sdkman/bin/sdkman-init.sh"
-  - sdk install kotlin
-  - make install-lisp
-  - make install-nim
-  - make install-pascal
-  - make install-rust
-  - make install-scala
+  - pip install virtualenv
+  - virtualenv venv
+  - pip install coala-bears
+  - pip install coala-quickstart
+  - yes | coala-quickstart
 
 script:
-  - make c
-  - make coffee
-  - make cpp
-  - make elixir
-  - make fortran
-  - make go
-  - make haskell
-  - make java
-  - make julia
-  - make kotlin
-  - make lisp
-  - make nim
-  - make node
-  - make pascal
-  - make php
-  - make python
-  - make python3
-  - make rust
-  - make scala
-  - make R
-  - make batch
+  - coala  --non-interactive
