@@ -1,14 +1,17 @@
-language: python
+language: node_js
 
-python:
-  - "3.6"
+node_js:
+  - "10"
 
-before_install:
-  - pip install virtualenv
-  - virtualenv venv
-  - pip install coala-bears
-  - pip install coala-quickstart
-  - coala-quickstart --non-interactive
+cache: yarn
 
 script:
-  - coala  --non-interactive
+  - yarn docs:build
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  on:
+    branch: gh-pages

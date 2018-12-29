@@ -2,7 +2,7 @@
 
 .globl main
 
-main:   jal hwbody              #call Hello Word Procedure
+main:   jal hwbody              #call Hello World Procedure
        trap 10                 #exit
 
 hwbody: addi $30, $30,-4        #we need to preserve
