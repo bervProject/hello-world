@@ -3,7 +3,7 @@
 
 [![Build Status](https://travis-ci.org/berviantoleo/hello-world.svg?branch=master)](https://travis-ci.org/berviantoleo/hello-world)
 
-Hello World in any programing language. Read [contribution guide](CONTRIBUTION.md) for pull request.
+Hello World in any programing language. Read [contribution guide](CONTRIBUTING.md) for pull request.
 
 ## Documentation
 
