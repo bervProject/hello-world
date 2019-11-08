@@ -271,7 +271,7 @@ Code:
 
 Code:
 
-<<< @/src/HelloWorld.scala{5}
+<<< @/src/HelloWorld.scala{3}
 
 ## Shell Script
 
