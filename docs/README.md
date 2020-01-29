@@ -1,7 +1,5 @@
 # Hello World Collection
 
-[[toc]]
-
 ## A68
 
 Code:
