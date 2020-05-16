@@ -6,6 +6,7 @@ Hello World in any programing language. Read [contribution guide](CONTRIBUTING.m
 ## Build Status
 
 | Travis |
+|:------:|
 | [![Build Status](https://travis-ci.com/bervProject/hello-world.svg?branch=master)](https://travis-ci.com/bervProject/hello-world) |
 
 ## Documentation
