@@ -3,7 +3,9 @@ module.exports = {
   description: "Collection of Hello World in Any Language",
   base: "/hello-world/",
   dest: "public",
+  plugins: ['@vuepress/back-to-top'],
   themeConfig: {
+    lastUpdated: 'Last Updated',
     nav: [
       { text: "Home", link: "/" },
       {

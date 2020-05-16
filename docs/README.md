@@ -4,7 +4,7 @@
 
 Code:
 
-<<< @/src/hello_world.A68{1}
+<<< @/src/hello_world.a{1}
 
 ## ArnoldC
 
@@ -155,7 +155,7 @@ Code:
 
 Compile: `kotlinc HelloWorld.kt -include-runtime -d HelloWorld.jar`
 
-Run: `java -jar HelloWorld.jar` 
+Run: `java -jar HelloWorld.jar`
 
 Code:
 
@@ -227,13 +227,13 @@ Code:
 
 Code:
 
-<<< @/src/hello_world.ps1{1}
+<<< @/src/hello_world.powershell{1}
 
 ## Processing
 
 Compile and Run : processing-java --run --sketch=`pwd`/HelloWorld --output=`pwd`/HelloWorld/output
 
-## Python2
+## Python 2
 
 Run: `python2 hello_world_2.py`
 
@@ -241,7 +241,7 @@ Code:
 
 <<< @/src/hello_world_2.py{1}
 
-## Python3
+## Python 3
 
 Run: `python3 hello_world_3-6.py`
 
@@ -253,7 +253,7 @@ Run: `R Hello-World.r`
 
 Code:
 
-<<< @/src/Hello-World.R{2}
+<<< @/src/Hello-World.r{2}
 
 ## Rust
 
