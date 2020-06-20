@@ -13,6 +13,6 @@
   "private": true,
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.5.1",
-    "vuepress": "1.5.1"
+    "vuepress": "1.5.2"
   }
 }
