@@ -13,6 +13,7 @@
   "private": true,
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.7.1",
-    "vuepress": "1.7.1"
+    "vuepress": "1.7.1",
+    "vuepress-theme-antdocs": "^1.2.2"
   }
 }
