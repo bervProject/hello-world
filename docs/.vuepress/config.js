@@ -1,9 +1,8 @@
 module.exports = {
   title: "Hello World Collection",
   description: "Collection of Hello World in Any Language",
-  base: "/hello-world/",
+  base: process.env.BASE_URL || "/",
   dest: "public",
-  theme: "antdocs",
   plugins: ["@vuepress/back-to-top"],
   themeConfig: {
     locales: {
