@@ -163,13 +163,13 @@ Kode:
 
 ## LolKode
 
-Jalankan: lci hello_world.lolKode
+Jalankan: lci hello_world.lolcode
 
-http://lolKode.org/
+http://lolcode.org/
 
 Kode:
 
-<<< @/src/hello_world.lolKode{3}
+<<< @/src/hello_world.lolcode{3}
 
 ## Lisp
 
