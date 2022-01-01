@@ -5,6 +5,7 @@ on:
       - main
 env:
   NODE_VERSION: 14.x
+  BASE_URL: "/hello-world/"
 jobs:
   docs:
     name: Publish Docs
