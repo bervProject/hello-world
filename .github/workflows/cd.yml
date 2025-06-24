@@ -19,7 +19,7 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           always-auth: true
       - name: Restore cache
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         with:
           path: |
             node_modules
