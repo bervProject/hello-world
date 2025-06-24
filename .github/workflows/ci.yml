@@ -4,11 +4,11 @@ on:
     branches:
       - main
 env:
-  NODE_VERSION: 14.x
+  NODE_VERSION: 22.x
 jobs:
   docs:
     name: Publish Docs
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout
         uses: actions/checkout@v2
