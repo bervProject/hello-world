@@ -4,7 +4,7 @@
 
 Kode:
 
-@[code a{1}](../src/hello_world.a)
+@[code a{1}](../../src/hello_world.a)
 
 ## ArnoldC
 
@@ -16,17 +16,17 @@ Jalankan: `java hello`
 
 Kode:
 
-@[code arnoldc{2}](../src/hello_world.arnoldc)
+@[code arnoldc{2}](../../src/hello_world.arnoldc)
 
 ## Asembler
 
-@[code](../src/hello_world.s)
+@[code](../../src/hello_world.s)
 
 ## Asembly
 
 Kode:
 
-@[code](../src/hello_world.asm)
+@[code](../../src/hello_world.asm)
 
 ## Batch
 
@@ -34,7 +34,7 @@ Jalankan: `hello_world.bat`
 
 Kode:
 
-@[code bat{2}](../src/hello_world.bat)
+@[code bat{2}](../../src/hello_world.bat)
 
 ## Befunge
 
@@ -42,7 +42,7 @@ http://www.quirkster.com/iano/js/befunge.html
 
 Kode:
 
-@[code befunge{1}](../src/hello_world.befunge)
+@[code befunge{1}](../../src/hello_world.befunge)
 
 ## C
 
@@ -52,13 +52,13 @@ Jalankan (Linux): `./hello_world`
 
 Kode:
 
-@[code c{4}](../src/hello_world.c)
+@[code c{4}](../../src/hello_world.c)
 
 ## C#
 
 Kode:
 
-@[code cs{5}](../src/HelloWorld.cs)
+@[code cs{5}](../../src/HelloWorld.cs)
 
 ## C++
 
@@ -68,14 +68,14 @@ Jalankan (Linux): `./hello_world`
 
 Kode:
 
-@[code cpp{6}](../src/hello_world.cpp)
+@[code cpp{6}](../../src/hello_world.cpp)
 
 
 ## Coffee
 
 Kode:
 
-@[code coffee{1}](../src/hello_world.coffee)
+@[code coffee{1}](../../src/hello_world.coffee)
 
 ## Dart
 
@@ -83,19 +83,19 @@ Jalankan: `dart hello_word.dart`
 
 Kode:
 
-@[code dart{5}](../src/hello_world.dart)
+@[code dart{5}](../../src/hello_world.dart)
 
 ## Elixir
 
 Kode:
 
-@[code elixir{4}](../src/hello_world.ex)
+@[code elixir{4}](../../src/hello_world.ex)
 
 ## F
 
 Kode:
 
-@[code f{2}](../src/hello_world.f)
+@[code f{2}](../../src/hello_world.f)
 
 ## Fish
 
@@ -103,13 +103,13 @@ Jalankan: `fish hello_word.fish`
 
 Kode:
 
-@[code {4}](../src/hello_world.fish)
+@[code {4}](../../src/hello_world.fish)
 
 ## Go
 
 Kode:
 
-@[code go{6}](../src/hello_world.go)
+@[code go{6}](../../src/hello_world.go)
 
 ## Haskell
 
@@ -119,13 +119,13 @@ Jalankan (Linux): `./helloworld`
 
 Kode:
 
-@[code hs{1}](../src/helloworld.hs)
+@[code hs{1}](../../src/helloworld.hs)
 
 ## HTML
 
 Kode:
 
-@[code html{2}](../src/hello_world.html)
+@[code html{2}](../../src/hello_world.html)
 
 ## Java
 
@@ -135,13 +135,13 @@ Jalankan: `java HelloWorld`
 
 Kode:
 
-@[code java{3}](../src/HelloWorld.java)
+@[code java{3}](../../src/HelloWorld.java)
 
 ## Javascript
 
 Kode:
 
-@[code js{1}](../src/hello_world.js)
+@[code js{1}](../../src/hello_world.js)
 
 ## Julia
 
@@ -149,7 +149,7 @@ Compile and Jalankan: `julia HelloWorld.jl`
 
 Kode:
 
-@[code julia{1}](../src/HelloWorld.jl)
+@[code julia{1}](../../src/HelloWorld.jl)
 
 ## Kotlin
 
@@ -159,7 +159,7 @@ Jalankan: `java -jar HelloWorld.jar`
 
 Kode:
 
-@[code kt{2}](../src/HelloWorld.kt)
+@[code kt{2}](../../src/HelloWorld.kt)
 
 ## LolKode
 
@@ -169,7 +169,7 @@ http://lolcode.org/
 
 Kode:
 
-@[code {3}](../src/hello_world.lolcode)
+@[code {3}](../../src/hello_world.lolcode)
 
 ## Lisp
 
@@ -179,19 +179,19 @@ Jalankan: `clisp hello_world.lisp`
 
 Kode:
 
-@[code lsip{4}](../src/hello_world.lisp)
+@[code lsip{4}](../../src/hello_world.lisp)
 
 ## Matlab
 
 Kode:
 
-@[code matlab{1}](../src/hello_world.m)
+@[code matlab{1}](../../src/hello_world.m)
 
 ## NIM
 
 Kode:
 
-@[code nim{1}](../src/hello_world.nim)
+@[code nim{1}](../../src/hello_world.nim)
 
 ## Ook
 
@@ -199,13 +199,13 @@ https://www.splitbrain.org/services/ook
 
 Kode:
 
-@[code](../src/hello_world.ook)
+@[code](../../src/hello_world.ook)
 
 ## Pascal
 
 Kode:
 
-@[code pascal{4}](../src/hello_world.pas)
+@[code pascal{4}](../../src/hello_world.pas)
 
 ## Perl
 
@@ -213,7 +213,7 @@ Jalankan: `perl hello_world.pl`
 
 Kode:
 
-@[code pl{3}](../src/hello_world.pl)
+@[code pl{3}](../../src/hello_world.pl)
 
 ## Php
 
@@ -221,13 +221,13 @@ Jalankan `php hello_world.php`
 
 Kode:
 
-@[code php{2}](../src/hello_world.php)
+@[code php{2}](../../src/hello_world.php)
 
 ## Powershell
 
 Kode:
 
-@[code ps{1}](../src/hello_world.powershell)
+@[code ps{1}](../../src/hello_world.powershell)
 
 ## Processing
 
@@ -239,13 +239,13 @@ Jalankan: `python2 hello_world_2.py`
 
 Kode:
 
-@[code py{1}](../src/hello_world_2.py)
+@[code py{1}](../../src/hello_world_2.py)
 
 ## Python 3
 
 Jalankan: `python3 hello_world_3-6.py`
 
-@[code py{1}](../src/hello_world_3-6.py)
+@[code py{1}](../../src/hello_world_3-6.py)
 
 ## R
 
@@ -253,7 +253,7 @@ Jalankan: `R Hello-World.r`
 
 Kode:
 
-@[code r{2}](../src/Hello-World.r)
+@[code r{2}](../../src/Hello-World.r)
 
 ## Rust
 
@@ -263,28 +263,28 @@ Jalankan: `./hello_world.rs`
 
 Kode:
 
-@[code rs{2}](../src/hello_world.rs)
+@[code rs{2}](../../src/hello_world.rs)
 
 ## Scala
 
 Kode:
 
-@[code scala{3}](../src/HelloWorld.scala)
+@[code scala{3}](../../src/HelloWorld.scala)
 
 ## Shell Script
 
 Kode:
 
-@[code sh{2}](../src/hello_world.sh)
+@[code sh{2}](../../src/hello_world.sh)
 
 ## Swift
 
 Kode:
 
-@[code swift{1}](../src/hello_world.swift)
+@[code swift{1}](../../src/hello_world.swift)
 
 ## Visual Basic
 
 Kode:
 
-@[code vbs{1}](../src/hello_world.vbs)
+@[code vbs{1}](../../src/hello_world.vbs)
