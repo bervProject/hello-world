@@ -4,7 +4,7 @@
 
 Code:
 
-<<< @/src/hello_world.a{1}
+@[code a{1}](../src/hello_world.a)
 
 ## ArnoldC
 
@@ -16,17 +16,17 @@ Run: `java hello`
 
 Code:
 
-<<< @/src/hello_world.arnoldc{2}
+@[code arnoldc{2}](../src/hello_world.arnoldc)
 
 ## Asembler
 
-<<< @/src/hello_world.s
+@[code](../src/hello_world.s)
 
 ## Asembly
 
 Code:
 
-<<< @/src/hello_world.asm
+@[code](../src/hello_world.asm)
 
 ## Batch
 
@@ -34,7 +34,7 @@ Run: `hello_world.bat`
 
 Code:
 
-<<< @/src/hello_world.bat{2}
+@[code bat{2}](../src/hello_world.bat)
 
 ## Befunge
 
@@ -42,7 +42,7 @@ http://www.quirkster.com/iano/js/befunge.html
 
 Code:
 
-<<< @/src/hello_world.befunge{1}
+@[code befunge{1}](../src/hello_world.befunge)
 
 ## C
 
@@ -52,13 +52,13 @@ Run (Linux): `./hello_world`
 
 Code:
 
-<<< @/src/hello_world.c{4}
+@[code c{4}](../src/hello_world.c)
 
 ## C#
 
 Code:
 
-<<< @/src/HelloWorld.cs{5}
+@[code cs{5}](../src/HelloWorld.cs)
 
 ## C++
 
@@ -68,14 +68,14 @@ Run (Linux): `./hello_world`
 
 Code:
 
-<<< @/src/hello_world.cpp{6}
+@[code cpp{6}](../src/hello_world.cpp)
 
 
 ## Coffee
 
 Code:
 
-<<< @/src/hello_world.coffee{1}
+@[code coffee{1}](../src/hello_world.coffee)
 
 ## Dart
 
@@ -83,19 +83,19 @@ Run: `dart hello_word.dart`
 
 Code:
 
-<<< @/src/hello_world.dart{5}
+@[code dart{5}](../src/hello_world.dart)
 
 ## Elixir
 
 Code:
 
-<<< @/src/hello_world.ex{4}
+@[code elixir{4}](../src/hello_world.ex)
 
 ## F
 
 Code:
 
-<<< @/src/hello_world.f{2}
+@[code f{2}](../src/hello_world.f)
 
 ## Fish
 
@@ -103,13 +103,13 @@ Run: `fish hello_word.fish`
 
 Code:
 
-<<< @/src/hello_world.fish{4}
+@[code {4}](../src/hello_world.fish)
 
 ## Go
 
 Code:
 
-<<< @/src/hello_world.go{6}
+@[code go{6}](../src/hello_world.go)
 
 ## Haskell
 
@@ -119,13 +119,13 @@ Run (Linux): `./helloworld`
 
 Code:
 
-<<< @/src/helloworld.hs{1}
+@[code hs{1}](../src/helloworld.hs)
 
 ## HTML
 
 Code:
 
-<<< @/src/hello_world.html{2}
+@[code html{2}](../src/hello_world.html)
 
 ## Java
 
@@ -135,13 +135,13 @@ Run: `java HelloWorld`
 
 Code:
 
-<<< @/src/HelloWorld.java{3}
+@[code java{3}](../src/HelloWorld.java)
 
 ## Javascript
 
 Code:
 
-<<< @/src/hello_world.js{1}
+@[code js{1}](../src/hello_world.js)
 
 ## Julia
 
@@ -149,7 +149,7 @@ Compile and Run: `julia HelloWorld.jl`
 
 Code:
 
-<<< @/src/HelloWorld.jl{1}
+@[code julia{1}](../src/HelloWorld.jl)
 
 ## Kotlin
 
@@ -159,7 +159,7 @@ Run: `java -jar HelloWorld.jar`
 
 Code:
 
-<<< @/src/HelloWorld.kt{2}
+@[code kt{2}](../src/HelloWorld.kt)
 
 ## Lolcode
 
@@ -169,7 +169,7 @@ http://lolcode.org/
 
 Code:
 
-<<< @/src/hello_world.lolcode{3}
+@[code {3}](../src/hello_world.lolcode)
 
 ## Lisp
 
@@ -179,19 +179,19 @@ Run: `clisp hello_world.lisp`
 
 Code:
 
-<<< @/src/hello_world.lisp{4}
+@[code lsip{4}](../src/hello_world.lisp)
 
 ## Matlab
 
 Code:
 
-<<< @/src/hello_world.m{1}
+@[code matlab{1}](../src/hello_world.m)
 
 ## NIM
 
 Code:
 
-<<< @/src/hello_world.nim{1}
+@[code nim{1}](../src/hello_world.nim)
 
 ## Ook
 
@@ -199,13 +199,13 @@ https://www.splitbrain.org/services/ook
 
 Code:
 
-<<< @/src/hello_world.ook
+@[code](../src/hello_world.ook)
 
 ## Pascal
 
 Code:
 
-<<< @/src/hello_world.pas{4}
+@[code pascal{4}](../src/hello_world.pas)
 
 ## Perl
 
@@ -213,7 +213,7 @@ Run: `perl hello_world.pl`
 
 Code:
 
-<<< @/src/hello_world.pl{3}
+@[code pl{3}](../src/hello_world.pl)
 
 ## Php
 
@@ -221,13 +221,13 @@ Run `php hello_world.php`
 
 Code:
 
-<<< @/src/hello_world.php{2}
+@[code php{2}](../src/hello_world.php)
 
 ## Powershell
 
 Code:
 
-<<< @/src/hello_world.powershell{1}
+@[code ps{1}](../src/hello_world.powershell)
 
 ## Processing
 
@@ -239,13 +239,13 @@ Run: `python2 hello_world_2.py`
 
 Code:
 
-<<< @/src/hello_world_2.py{1}
+@[code py{1}](../src/hello_world_2.py)
 
 ## Python 3
 
 Run: `python3 hello_world_3-6.py`
 
-<<< @/src/hello_world_3-6.py{1}
+@[code py{1}](../src/hello_world_3-6.py)
 
 ## R
 
@@ -253,7 +253,7 @@ Run: `R Hello-World.r`
 
 Code:
 
-<<< @/src/Hello-World.r{2}
+@[code r{2}](../src/Hello-World.r)
 
 ## Rust
 
@@ -263,28 +263,28 @@ Run: `./hello_world.rs`
 
 Code:
 
-<<< @/src/hello_world.rs{2}
+@[code rs{2}](../src/hello_world.rs)
 
 ## Scala
 
 Code:
 
-<<< @/src/HelloWorld.scala{3}
+@[code scala{3}](../src/HelloWorld.scala)
 
 ## Shell Script
 
 Code:
 
-<<< @/src/hello_world.sh{2}
+@[code sh{2}](../src/hello_world.sh)
 
 ## Swift
 
 Code:
 
-<<< @/src/hello_world.swift{1}
+@[code swift{1}](../src/hello_world.swift)
 
 ## Visual Basic
 
 Code:
 
-<<< @/src/hello_world.vbs{1}
+@[code vbs{1}](../src/hello_world.vbs)

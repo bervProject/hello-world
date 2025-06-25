@@ -1,39 +1,29 @@
-module.exports = {
+import { viteBundler } from '@vuepress/bundler-vite'
+import { defaultTheme } from '@vuepress/theme-default'
+import { defineUserConfig } from 'vuepress'
+import { backToTopPlugin } from '@vuepress/plugin-back-to-top';
+
+export default defineUserConfig({
   title: "Hello World Collection",
   description: "Collection of Hello World in Any Language",
-  base: process.env.BASE_URL || "/",
+  base: process.env.BASE_URL ? `/${process.env.BASE_URL}/` : "/",
   dest: "public",
-  plugins: ["@vuepress/back-to-top"],
-  themeConfig: {
+  plugins: [backToTopPlugin],
+  bundler: viteBundler(),
+  theme: defaultTheme({
     locales: {
       "/": {
-        selectText: "Languages",
         editLinkText: "Edit this page on GitHub",
-        lastUpdated: "Last Updated",
-        nav: [
-          { text: "Home", link: "/" },
-          {
-            text: "Github",
-            link: "https://github.com/berviantoleo/hello-world",
-          },
-        ],
+        lastUpdated: true,
         sidebar: ["/"],
       },
       "/id/": {
-        selectText: "Bahasa",
-        lastUpdated: "Terakhir update",
+        lastUpdated: true,
         editLinkText: "Edit halaman ini di GitHub",
-        nav: [
-          { text: "Beranda", link: "/id/" },
-          {
-            text: "Github",
-            link: "https://github.com/berviantoleo/hello-world",
-          },
-        ],
         sidebar: ["/id/"],
       },
     },
-  },
+  }),
   locales: {
     // The key is the path for the locale to be nested under.
     // As a special case, the default locale can use '/' as its path.
@@ -48,4 +38,4 @@ module.exports = {
       description: 'Koleksi "Hello World"',
     },
   },
-};
+});
