@@ -30,7 +30,7 @@ jobs:
       - name: Build Documentation
         run: yarn docs:build
       - name: Deploy Docs 🚀
-        uses: JamesIves/github-pages-deploy-action@v4.7.6
+        uses: JamesIves/github-pages-deploy-action@v4.8.0
         with:
           branch: gh-pages # The branch the action should deploy to.
           folder: public # The folder the action should deploy.
