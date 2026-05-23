@@ -1,0 +1,1 @@
+import{a as e,n as t,r as n,t as r}from"./app-cwf14gHp.js";var i={};function a(r,i){return e(),n(`div`,null,[...i[0]||=[t(`p`,null,`404 Not Found`,-1)]])}var o=r(i,[[`render`,a]]),s=JSON.parse(`{"path":"/404.html","title":"","lang":"en-US","frontmatter":{"layout":"NotFound"},"git":{},"filePathRelative":null}`);export{o as comp,s as data};
